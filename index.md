@@ -2,6 +2,7 @@
 title: Индекс.мд
 the_answer: 'let Code = function() { return function(name) { return "Hello " + name
   + "!"; }; }; '
+published: false
 
 ---
 ## Скоро тут будет какой-то контент
@@ -18,7 +19,8 @@ console.log(hello(name)); // -> "Hello, stgolem!"
 
 Как реализовать `Code` ?
 
-![](/uploads/A61BE635-AAEB-435B-9E08-B33F1530BE16.jpeg)
+1. Никак - такой результат невозможен :(
+2. Используйте воображение - это JS детка!
 
 <div id="the_answer" style="display: none">
 {% highlight javascript %}
