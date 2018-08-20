@@ -1,5 +1,6 @@
 ---
 title: Индекс.мд
+answer.hidden: let Code = function() { return function(name) { return "Hello " + name + "!"; } };
 ---
 
 ## Индекс.мд
@@ -12,4 +13,12 @@ let name = "stgolem";
 console.log(hello(name)); // -> "Hello, stgolem!"
 ```
 
-Как реализовать `Code`?
+Как реализовать `Code` ?
+
+<div style="display: none">
+
+```javascript
+{{ answer.hidden }}
+```
+
+</div>
