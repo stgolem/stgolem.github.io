@@ -18,7 +18,7 @@ console.log(hello(name)); // -> "Hello, stgolem!"
 <div style="display: none">
 
 ```javascript
-{{ answer.hidden }}
+{{ site.answer.hidden }}
 ```
 
 </div>
