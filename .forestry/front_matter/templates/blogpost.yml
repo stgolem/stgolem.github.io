@@ -13,5 +13,8 @@ fields:
   label: Дата публикации
   config:
     required: true
+- type: tag_list
+  name: tags
+  label: Тэги
 pages:
 - _posts/.md
