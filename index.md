@@ -1,11 +1,13 @@
 ---
 title: Индекс.мд
-the_answer: let Code = function() { return function(name) { return "Hello " + name + "!"; }; };
+the_answer: let Code = function() { return function(name) { return "Hello " + name
+  + "!"; }; };
+published: false
+
 ---
+## Скоро тут будет какой-то контент
 
-## индекс.мд
-
-> Скоро тут будет какой-то контент (но это не точно). 
+> (но это не точно). 
 
 А пока подумайте над задачей:
 
