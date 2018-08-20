@@ -1,6 +1,6 @@
 ---
 title: Индекс.мд
-answer.hidden: let Code = function() { return function(name) { return "Hello " + name + "!"; } };
+the_answer_hidden: let Code = function() { return function(name) { return "Hello " + name + "!"; } };
 ---
 
 ## Индекс.мд
@@ -15,10 +15,10 @@ console.log(hello(name)); // -> "Hello, stgolem!"
 
 Как реализовать `Code` ?
 
-<div style="display: none">
+<div id="the_answer" style="display: none">
 
-```javascript
-{{ site.answer.hidden }}
+```js
+{{ page.the_answer_hidden }}
 ```
 
 </div>
