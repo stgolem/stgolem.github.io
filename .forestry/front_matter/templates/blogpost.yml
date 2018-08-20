@@ -16,5 +16,10 @@ fields:
 - type: tag_list
   name: tags
   label: Тэги
+- type: list
+  config:
+    max: '3'
+    min: '1'
+  name: categories
 pages:
 - _posts/.md
