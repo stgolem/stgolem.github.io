@@ -2,7 +2,6 @@
 title: Индекс.мд
 the_answer: 'let Code = function() { return function(name) { return "Hello " + name
   + "!"; }; }; '
-published: false
 
 ---
 ## Скоро тут будет какой-то контент
