@@ -1,8 +1,8 @@
 url: "https://stgolem.me"
 baseurl: ""
-lang: "ru-Ru"
+lang: "ru-RU"
 
 title: Привет парни!
-description: Что вот это вот так, надо вот это сюда, а вот то вот туда и чтобы вот не это!
+description: Что бы вот это вот так, надо вот это вот сюда, а вот то вот туда. И главное тут не это вот!
 
 theme: jekyll-theme-hacker
