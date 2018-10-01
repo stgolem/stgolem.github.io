@@ -6,3 +6,5 @@ title: Привет парни!
 description: Что бы вот это вот так, надо вот это вот сюда, а вот то вот туда. И главное тут не это вот!
 
 theme: jekyll-theme-hacker
+show_downloads: "false"
+google_analytics: "UA-4447157-5"
