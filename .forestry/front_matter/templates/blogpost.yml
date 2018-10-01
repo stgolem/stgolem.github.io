@@ -22,4 +22,5 @@ fields:
     min: '1'
   name: categories
 pages:
+- _posts/2018-08-26-web-stack-choose-enterprise.md
 - _posts/2018-08-21-how-to-live-after-that.md
