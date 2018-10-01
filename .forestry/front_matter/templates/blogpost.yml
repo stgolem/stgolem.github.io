@@ -21,6 +21,13 @@ fields:
     max: '3'
     min: '1'
   name: categories
+- type: text
+  name: author
+  label: Автор
+  default: stgolem
+  config:
+    required: true
+  description: Автор произведения
 pages:
 - _posts/2018-08-26-web-stack-choose-enterprise.md
 - _posts/2018-08-21-how-to-live-after-that.md
