@@ -26,3 +26,7 @@ console.log(hello(name)); // -> "Hello, stgolem!"
 {{ page.the_answer }}
 {% endhighlight %}
 </div>
+
+## А вот и первая кровь
+
+- [Как мы дизайнер в веб перетаскивали]({{ site.baseurl }}{% post_url 2018-08-26-web-stack-choose-enterprise %})
