@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
   </head>
@@ -17,10 +17,12 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="downloads">
-          <a href="/" title="Главная">~/</a>
+          <a href="{{ site.url }}" title="Главная">~/</a>
           <a href="https://stgolem.wordpress.com" title="Блог на wordpress. Не могу же я просто его забыть">wp</a>
           <a href="https://twitter.com/stgolem" title="Все пользуются Твиттером! Ведь правда?">twttr</a>
-          <a href="{{ site.github.repository_url }}" title="Исходники этого сайта">src</a>
+          {% if site.repository_url %}
+            <a href="{{ site.repository_url }}" title="Исходники этого сайта">src</a>
+          {% endif %}
         </section>
       </div>
     </header>

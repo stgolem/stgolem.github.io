@@ -8,6 +8,7 @@ description: Что бы вот это вот так, надо вот это в�
 theme: jekyll-theme-hacker
 show_downloads: "false"
 google_analytics: "UA-4447157-5"
+repository_url: "https://github.com/stgolem/stgolem.github.io"
 
 defaults:
   -
