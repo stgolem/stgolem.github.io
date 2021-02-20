@@ -50,7 +50,7 @@ author: stgolem
 
 Структура кода на Angular очень органично складывается в структуру CAB. Можно легко сопоставить WorkItem как Компонент, а Controller как Сервис. При этом визуальная часть точно так же остаётся отдельно и взаимодействие идёт за счёт событий по цепочке UI - WorkItem (Component) - Controller (Service).
 
-![Angular Component Service Model Layers](/uploads/angular-component-service-model-layers.png)
+![Angular Component Service Model Layers]({{ site.baseurl }}/uploads/angular-component-service-model-layers.png)
 
 Конечно, так можно сравнить любые подходы, но мне было важно понять, как это объяснить другим разработчикам. А использовать уже понятные аналогии гораздо эффективнее.
 
